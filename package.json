@@ -1,18 +1,18 @@
 {
   "name": "guitar-score-auto-rolling",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "一个用于方便解放双手浏览谱子的谷歌插件，目的是可以让浏览吉他谱的时候页面自动滚动，并且可中断滚动的操作。附加了吉他谱搜索功能，暂时只对国内几个热门的吉他谱网站进行搜索。",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build"
   },
-  "author": "",
+  "author": "PlayGuitar-CoderQ",
   "license": "ISC",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.40",
     "svelte": "^3.46.6",
     "typescript": "^4.6.3",
     "vite": "^2.9.1",
-    "vite-plugin-svelte": "link:@types/@sveltejs/vite-plugin-svelte"
+    "vite-plugin-chrome-extension": "^0.0.7"
   }
 }
