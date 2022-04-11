@@ -4,10 +4,10 @@
 </script>
 
 <main>
-  <div style="text-align:center">
+  <div style="text-align:center; boreder: 2px solid pink;">
     <img src={logo} alt="Vue" />
   </div>
-  <h1>Hello Svelte!</h1>
+  <h1>Hello Svelte!操作界面</h1>
 
   <Counter />
 
@@ -32,6 +32,7 @@
     text-align: center;
     padding: 1em;
     margin: 0 auto;
+    border: 2px solid red;
   }
 
   img {
