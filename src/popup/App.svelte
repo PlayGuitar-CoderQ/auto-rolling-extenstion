@@ -1,25 +1,33 @@
 <script lang="ts">
-  import logo from "../assets/svelte.png";
-  import Counter from "./Counter.svelte";
-  import GInput from '../components/g-input/index.svelte';
 </script>
 
-  <div class="wrapper">
-    <div class="header-main">
-
-    </div>
-    <img src={logo} alt="Svelte Logo" style="width:100px" />
-    <Counter />
-    <GInput />
+<div class="wrapper">
+  <div class="header-main">
+    <sapn>title预览</sapn>
   </div>
-  
+</div>
+
 <style>
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width:  500px;
-  height:  300px;
-  border: 2px solid red;
-}
+  :global(body) {
+    padding: 0;
+    margin: 0;
+    background-color: #011727;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+  }
+  .wrapper .header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: #fff;
+    height: 20px;
+    color: #fff;
+    background-color: #7e5ec2;
+  }
 </style>
