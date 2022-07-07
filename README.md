@@ -6,7 +6,7 @@
   [![license](https://img.shields.io/badge/Vite-2.9.1-blueviolet?logo=Vite)](LICENSE)
   [![license](https://img.shields.io/badge/TypeScript-4.6.3"-blue?logo=TypeScript)](LICENSE)
 
-  <h1>Guitar - Score - Auto - Rolling</h1>
+  <h1> Auto - Rolling - Extenstion </h1>
 </div>
  <br> <br>
 
