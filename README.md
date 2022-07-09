@@ -1,15 +1,17 @@
 <div align="center"> 
-  <img alt="CoderQ" width="200" height="200" src="https://raw.githubusercontent.com/QYMeiriv/image-host/master/guitar.4o4w6oowbca0.webp">
+  <img alt="guitar" src="https://guitar-1305021979.cos.ap-guangzhou.myqcloud.com/%E5%90%89%E4%BB%96.png?q-sign-algorithm=sha1&q-ak=AKIDDvS-jJnOx2MiMNFjhsMVGuZhVzmF_Ibw8_Dr2kgEZ3Iw03p7kj16Wrj4YraPVFAL&q-sign-time=1657405215;1657408815&q-key-time=1657405215;1657408815&q-header-list=&q-url-param-list=&q-signature=c8dd4e48019800a221a8af1283266d5cda56e24f&x-cos-security-token=5J1CivR22u574hgygzW1cElqjWwCeHVa7e411e48ec5a8f6ab1fc0d75352faf826RJsqMmA2Wo9FItSnSeCjNSYT-1utch98VAibC14ry9MHsS32tYFu9966kvY7dOH_Bib-HFDpfTNVs5nvqCzbqlu28P1NXK71ccNMZGacDQ_JXfVWuNvxWkFgyJMV7yBkHPp1JkGWwve8Px86SeapJNaioe8tWn8f1OMiYRNVaEPbpwdbu6t_McHb7F6r3K2">
   <br> <br>
 
-  [![license](https://img.shields.io/badge/Svelte-3.46.6-orange?logo=Svelte)](LICENSE)
-  [![license](https://img.shields.io/badge/Vite-2.9.1-blueviolet?logo=Vite)](LICENSE)
-  [![license](https://img.shields.io/badge/TypeScript-4.6.3"-blue?logo=TypeScript)](LICENSE)
+![SolidJS](https://img.shields.io/badge/SolidJS-2c4f7c?style=for-the-badge&logo=solid&logoColor=c8c9cb)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
   <h1> Auto - Rolling - Extenstion </h1>
 </div>
- <br> <br>
-
+ <p>
+  <img src="https://assets.solidjs.com/banner?project=Auto - Rolling - Extenstion&type=core" alt="SolidJS" />
+</p>
+ <br> 
 ### 💡 功能规划
 
 - 🎛 拥有两种滚动状态

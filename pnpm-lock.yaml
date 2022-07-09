@@ -4,6 +4,8 @@ specifiers:
   '@crxjs/vite-plugin': ^1.0.12
   '@smui/textfield': ^6.0.0-beta.16
   '@sveltejs/vite-plugin-svelte': ^1.0.0-next.40
+  babel-preset-solid: ^1.4.6
+  solid-js: ^1.4.7
   svelte: ^3.46.6
   typescript: ^4.6.3
   vite: ^2.9.1
@@ -12,10 +14,12 @@ specifiers:
 
 dependencies:
   '@crxjs/vite-plugin': 1.0.12_vite@2.9.12
+  solid-js: 1.4.7
 
 devDependencies:
   '@smui/textfield': 6.0.0-beta.16_svelte@3.48.0+typescript@4.7.4
   '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0+vite@2.9.12
+  babel-preset-solid: 1.4.6
   svelte: 3.48.0
   typescript: 4.7.4
   vite: 2.9.12
@@ -246,6 +250,15 @@ packages:
     resolution: {integrity: sha512-uQVSa9jJUe/G/304lXspfWVpKpK4euFLgGiMQFOCpM/bgcAdeoHwi/OQz23O9GK2osz26ZiXRRV9aV+Yl1O8tw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  /@babel/plugin-syntax-jsx/7.18.6:
+    resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/helper-plugin-utils': 7.18.6
+    dev: true
 
   /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.18.6:
     resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
@@ -750,6 +763,17 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
+  /babel-plugin-jsx-dom-expressions/0.33.12:
+    resolution: {integrity: sha512-FQeNcBvC+PrPYGpeUztI7AiiAqJL2H8e7mL4L6qHZ7B4wZfbgyREsHZwKmmDqxAehlyAUolTdhDNk9xfyHdIZw==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      '@babel/helper-module-imports': 7.16.0
+      '@babel/plugin-syntax-jsx': 7.18.6
+      '@babel/types': 7.18.7
+      html-entities: 2.3.2
+    dev: true
+
   /babel-plugin-jsx-dom-expressions/0.33.12_@babel+core@7.18.6:
     resolution: {integrity: sha512-FQeNcBvC+PrPYGpeUztI7AiiAqJL2H8e7mL4L6qHZ7B4wZfbgyREsHZwKmmDqxAehlyAUolTdhDNk9xfyHdIZw==}
     peerDependencies:
@@ -760,6 +784,14 @@ packages:
       '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.18.6
       '@babel/types': 7.18.7
       html-entities: 2.3.2
+    dev: true
+
+  /babel-preset-solid/1.4.6:
+    resolution: {integrity: sha512-5n+nm1zgj7BK9cv0kYu0p+kbsXgGbrxLmA5bv5WT0V5WnqRgshWILInPWLJNZbvP5gBj+huDKwk3J4RhhbFlhA==}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      babel-plugin-jsx-dom-expressions: 0.33.12
     dev: true
 
   /babel-preset-solid/1.4.6_@babel+core@7.18.6:
@@ -1665,7 +1697,6 @@ packages:
 
   /solid-js/1.4.7:
     resolution: {integrity: sha512-u3hoe5w3xseAc/8zLwYaQVGanWXknMMQkzryNz7lOPy2ygW6DhCtfMseun4kLflRNRzrUUpTV3W5p7j2SGcHCQ==}
-    dev: true
 
   /solid-refresh/0.4.1_solid-js@1.4.7:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}

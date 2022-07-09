@@ -1,24 +1,31 @@
 {
   "compilerOptions": {
-      "moduleResolution": "node",
-      "target": "esnext",
-      "module": "esnext",
-      "importsNotUsedAsValues": "error",
-      "isolatedModules": true,
-      "resolveJsonModule": true,
-      "sourceMap": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "baseUrl": ".",
-      "allowJs": true,
-      "checkJs": true,
-      "types": ["vite/client"]
+    "importsNotUsedAsValues": "error",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "composite": true,
+    "isolatedModules": false,
+    "declaration": true,
+    "declarationMap": true,
+    "types": [
+      "vite/client"
+    ]
   },
   "include": [
-    "src/**/*.d.ts",
-    "src/**/*.ts",
-    "src/**/*/.svelte",
+    "src",
     "vite.config.ts"
   ]
 }

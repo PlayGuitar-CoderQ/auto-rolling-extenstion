@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte';
 import manifest from './src/manifest.json';
+import solidPlugin from 'vite-plugin-solid';
 import { crx } from '@crxjs/vite-plugin';
 
 export default defineConfig({
@@ -11,9 +11,7 @@ export default defineConfig({
     }
   },
   plugins: [
-    svelte({
-      emitCss: false
-    }),
+    solidPlugin(),
     crx({ manifest })
   ]
 })
