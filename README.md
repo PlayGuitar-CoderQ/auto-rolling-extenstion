@@ -9,9 +9,10 @@
   <h1> Auto - Rolling - Extenstion </h1>
 </div>
  <p>
-  <img src="https://assets.solidjs.com/banner?project=Auto - Rolling - Extenstion&type=core" alt="SolidJS" />
+  <img src="https://assets.solidjs.com/banner?project=Auto-Rolling-Extenstion&type=core" alt="SolidJS" />
 </p>
  <br> 
+
 ### 💡 功能规划
 
 - 🎛 拥有两种滚动状态
@@ -50,7 +51,5 @@
 ```shell
   pnpm dev
 ```
-
-<br> <br>
-
+<br> 
  <p style="color: skyblue; font-size: 18px">想直接体验的朋友，可以下载 release 的产物</p>
